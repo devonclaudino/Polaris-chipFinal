@@ -14,7 +14,7 @@ export class PartyUI extends DDD {
         this.delete = false;
         this.changed = false;
         this.saved = false;
-        this.party = localStorage.getItem("party") != null ? localStorage.getItem("party").split(",") : ["evp5350", "test1234"];
+        this.party = localStorage.getItem("party") != null ? localStorage.getItem("party").split(",") : ["dcc5494", "test1234"];
         this.selectedUser = "";
     }
   
